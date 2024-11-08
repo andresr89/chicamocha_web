@@ -27,9 +27,17 @@
         </nav>
     </header>
 
-    <main>
-        <h1>Contacto</h1>
-        <p>Si tienes alguna pregunta o comentario, no dudes en contactarnos utlizando el siguiente formulario</p>
+    <h1>Reservas</h1>
+        <p>¡Déjanos acompañarte en esta aventura!</p>
+
+    <main class="formulario">
+        
+        <section class="transicion">
+            <img src="img/parapente.jfif">
+            <img src="img/senderismo.jfif">
+            <img src="img/teleferico.jfif">
+        </section>
+
         <div class="reservas">
             <form>
                 <label for="nombre">Nombre:</label>
@@ -38,19 +46,19 @@
                 <label for="email">Email:</label>
                 <input type="email" name="email" required>
 
-                <label for="asunto">Asunto:</label>
+                <label for="asunto">Actividad:</label>
                 <input type="text" name="asunto" required>
 
                 <label for="mensaje">Mensaje:</label>
                 <textarea name="mensaje" id="mensaje" rows="5" required></textarea>
 
-                <input type="submit" value="Enviar Mensaje">
+                <input type="submit" value="Reservar">
 
             </form>
         </div>
     </main>
 
-    <footer class="pie" id="contacto">
+    <footer class="pie">
         <p>Contacto: info@turismocanonchicamocha.com</p>
         <p>&copy; 2024 Turismo Cañón del Chicamocha</p>
     </footer>
