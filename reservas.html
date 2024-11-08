@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turismo en el Cañón del Chicamocha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="encabezado">
+        <div class="logo">Turismo Chicamocha</div>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#acerca">Acerca</a></li>
+                <li>
+                    <a href="actividades.html">Actividades</a>
+                    <ul>
+                        <li><a href="actividades.html#parapente">Parapente</a></li>
+                        <li><a href="actividades.html#senderismo">Senderismo</a></li>
+                        <li><a href="actividades.html#teleferico">Teleférico</a></li>
+                    </ul>
+                </li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Contacto</h1>
+        <p>Si tienes alguna pregunta o comentario, no dudes en contactarnos utlizando el siguiente formulario</p>
+        <div class="reservas">
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" required>
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" required>
+
+                <label for="asunto">Asunto:</label>
+                <input type="text" name="asunto" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea name="mensaje" id="mensaje" rows="5" required></textarea>
+
+                <input type="submit" value="Enviar Mensaje">
+
+            </form>
+        </div>
+    </main>
+
+    <footer class="pie" id="contacto">
+        <p>Contacto: info@turismocanonchicamocha.com</p>
+        <p>&copy; 2024 Turismo Cañón del Chicamocha</p>
+    </footer>
+
+</body>
+</html>
